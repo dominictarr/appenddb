@@ -1,0 +1,6 @@
+# logdb
+
+
+## License
+
+MIT
