@@ -1,11 +1,11 @@
 {
-  "name": "logdb",
-  "description": "",
+  "name": "appenddb",
+  "description": "database interface to an append only file",
   "version": "0.0.1",
-  "homepage": "https://github.com/dominictarr/logdb",
+  "homepage": "https://github.com/dominictarr/appenddb",
   "repository": {
     "type": "git",
-    "url": "git://github.com/dominictarr/logdb.git"
+    "url": "git://github.com/dominictarr/appenddb.git"
   },
   "dependencies": {
     "pull-split": "^0.1.3",

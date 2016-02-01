@@ -1,13 +1,13 @@
-# logdb
+# appenddb
 
 a minimal append only database, using an append only file, for comparison with leveldb.
 
 ## example
 
 ``` js
-var Log = require ('logdb')
+var AppendDB = require ('appenddb')
 
-var db = Log(file)
+var db = AppendDB(file)
 
 //write sourceData to the db.
 pull(
@@ -33,9 +33,9 @@ pull(
 
 # api
 
-## LogDb(file)
+## AppendDB(file)
 
-create a log db instance.
+create an append db instance.
 
 ### write(cb) => sink
 
@@ -53,7 +53,6 @@ returns a pull-stream source.
 ### get(key, cb(err, value))
 
 read one value from the database.
-
 
 ### clean (cb)
 
